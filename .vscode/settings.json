@@ -1,0 +1,4 @@
+{
+    "scss.lint.compatibleVendorPrefixes": "warning",
+    "scss.lint.unknownVendorSpecificProperties": "warning"
+}

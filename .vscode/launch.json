@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "./css"
+        },
+        {
+            "extensionName": ".min.css",
+            "format": "compressed",
+            "savePath": "./css"
+        }
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**",
+        ".vscode/**"
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    //autoprefix, will auto add perfix like -webkit- -moz-..
+    "liveSassCompile.settings.autoprefix": [
+        "> 1%",
+        "last 2 versions"
+    ]
+}
