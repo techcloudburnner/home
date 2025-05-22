@@ -1,123 +1,204 @@
-    <!DOCTYPE html>
-    <html lang="hi">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Financial Details</title>
-        <link rel="stylesheet" href="styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-          
-        </header>
-        <main>
-        <section class="financial-image">
-        <h2>वित्तीय विवरण</h2>
-        <div class="image-gallery">
-            <div class="gallery-item" data-index="0">
-                <img src="images/detailed.jpg" alt="Financial Details Image">
-                <div class="overlay">वित्तीय विवरण</div>
-            </div>
-            <div class="gallery-item" data-index="1">
-                <img src="images/bankStatement.jpg" alt="Bank Statement 1">
-                <div class="overlay">बैंक स्टेटमेंट</div>
-            </div>
-            <div class="gallery-item" data-index="2">
-                <img src="images/FrontBank.jpg" alt="Bank Statement 2">
-                <!-- <div class="overlay">बैंक स्टेटमेंट 2</div> -->
-            </div>
-        </div>
-    </section>
-            <!-- Lightbox Modal -->
-            
-            <!-- Rest of the page (table section) remains the same -->
-            <section class="financial-details">
-                <h2>वित्तीय बिंदु</h2>
-                <div class="table-container">
-                    <table id="financial-table">
-                        <thead>
-                            <tr>
-                                <th data-sort="number">क्र.सं.</th>
-                                <th data-sort="string">विवरण</th>
-                                <th data-sort="number">राशि (रुपये में)</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr data-tooltip="जमीन की बिक्री का मुख्य लेनदेन">
-                                <td>1</td>
-                                <td>जमीन के रुपये में से चार की जामिन कमल भाया और बा ने बेची</td>
-                                <td>1,04,50,000</td>
-                            </tr>
-                            <tr data-tooltip="शेष राशि की गणना">
-                                <td>2</td>
-                                <td>29 लाख में से 22 लाख बचते</td>
-                                <td>7,00,000</td>
-                            </tr>
-                            <tr data-tooltip="8 साल का ब्याज">
-                                <td>3</td>
-                                <td>घर की जामिन में से 10 लाख राजु काकाजी के यहाँ से 8 साल तक 20 हजार रुपये महीने ब्याज आया</td>
-                                <td>19,20,000</td>
-                            </tr>
-                            <tr data-tooltip="नेवरी फाटक की आय">
-                                <td>4</td>
-                                <td>नेवरी फाटक की जामिन रसीदी बीछी आये</td>
-                                <td>1,50,000</td>
-                            </tr>
-                            <tr data-tooltip="मकान बिक्री की आय">
-                                <td>5</td>
-                                <td>राजाराम नगर मकान रसीदी बेचा कमाये</td>
-                                <td>2,40,000</td>
-                            </tr>
-                        
-                            <tr data-tooltip="10 साल की बचत">
-                                <td>7</td>
-                                <td>भौरासा जमीन की तोजी 60 हजार रुपये साल से 10 साल के 6 लाख में से 3 लाख बचे</td>
-                                <td>3,00,000</td>
-                            </tr>
-                            <tr data-tooltip="पंचायत निकासी">
-                                <td>8</td>
-                                <td>बा के 650000 पंचायत में निकाले खा गया</td>
-                                <td>6,50,000</td>
-                            </tr>
-                            <tr data-tooltip="ब्याज की राशि">
-                                <td>9</td>
-                                <td>बा के 650000 का ब्याज 650000 रुपये भी खा गया</td>
-                                <td>6,50,000</td>
-                            </tr>
-                            <tr data-tooltip="आलम नगर की खरीद">
-                                <td>10</td>
-                                <td>जामिन के पर से बा ने आलम नगर के तीन प्लाट कमल भाया को दिलाये</td>
-                                <td>15,00,000</td>
-                            </tr>
-                            
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td colspan="2"><strong>कुल राशि</strong></td>
-                                <td><strong>61,10,000</strong></td>
-                            </tr>
-                        </tfoot>
-                    </table>
-                </div>
-                <div class="additional-notes">
-                    <p><strong>अतिरिक्त नोट:</strong></p>
-                    <p>61,100000 रुपये में से 15 लाख के प्लाट लेने के बाद जो रुपये बचे सब रुपये मेडकी रोड के मकान और दुकान में लगा दिये!</p>
-                    <p>और अभी 6300000 रुपये में भोरासा की जामिन बेची उसमें से 3000000 रुपये बचे और 3000000 रुपये इन्डियन ओवरसीज बैंक में रखे हैं जब सभी भाई हिसाब करके रुपये बाटने की बोलते हैं तो हिसाब नहीं करता हैं और सबको धमकी देता हैं!</p>
-                </div>
-                 <div>
-                    <h3>₹61,10000</h3>
-                    <h3>₹3000000</h3>
-                    <p>रुपये खाने  के बाद भी बोरिंग की मोटर ₹20000 बेची और तीन आरा जमीन बची थी उसको भी 4,00,000 रुपये बेची,</p>
-                    <p>माँ के पास जो पूरी रकम थी, वह  ₹1,00,000 भी उन्हीं के पास है । </p>
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&display=swap" rel="stylesheet"> 
+    <style>
+        body {
+            font-family: 'Noto Sans Devanagari', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        h1, h2 {
+            margin: 0;
+            padding: 10px 0;
+        }
+        .financial-details {
+            margin: 20px 0;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .table-container {
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        tfoot td {
+            font-weight: bold;
+            background-color: #f9f9f9;
+        }
+        .additional-notes {
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 20px;
+            background-color: #fff3cd;
+            border-left: 5px solid #ffeeba;
+        }
+        .additional-notes p {
+            margin: 5px 0;
+        } 
 
-                    <p><strong>कुल मिलाकर, 92,70,000 रुपये थे।</strong></p>
-                    <p>इसमें से आधे खर्च भी कर दिए गए होंगे, फिर भी बचे हुए आधे धन पर लगभग ₹40-45 लाख का ब्याज अकेले वह खा रहे हैं। क्या इसे ईमानदारी कहा जा सकता है?</p>
-                    <p>इसमें हमारे पिताजी भी साथ दे रहे हैं, जिन्होंने दादाजी का मकान, गाड़र फर्शी बेचकर खा लिया। गली के बाहर की  जमीन  का ब्याना भी खा गए। <br> घर की जमीन को भी  बेच दिया और  बाद में  बड़े बा  ने छुड़वा लियाऔर अभी जमीन बिक्री के समय, हमारे पिताजी ने काका और बड़े बा के 13.5-13.5 लाख रुपये बाँटवा दिए। <br> इस तरह, दोनों बाप-बेटे ने 35-40 लोगों की जिंदगी बर्बाद कर दी। दोनों ने चारसोबीसी धोखाधड़ी की और कमाल भैया और बा ने इसका पूरा फायदा उठाया।</p>
-                    <P> <strong>हमारे घर में आज भी इतना अन्याय हो रहा है कि इससे आने वाली पीढ़ी का भविष्य अंधकार में डूब रहा है। दोनों (पिताजी और कमाल भैया) इस अन्याय के लिए जिम्मेदार हैं।</strong></P>
-                </div>
-            </section>
-        </main>
-        <script src="script.js"></script>
-    </body>
-    </html>
+        .points {
+            list-style-type: none;
+            padding-right:50px ;
+;
+        }
+
+    </style>
+</head>
+<body> 
+    <header>
+        <h1>जमीन और मकान से संबंधित वित्तीय विवरण</h1>
+    </header>
+    <main>
+      <section class="financial-image">
+    <h2>वित्तीय विवरण</h2>
+    <div class="image-gallery">
+        <div class="gallery-item" data-index="0">
+            <img src="imges/detailed.jpg" alt="Financial Details Image">
+            <div class="overlay">वित्तीय विवरण</div>
+        </div>
+        <div class="gallery-item" data-index="1">
+            <img src="imges/bankStatement.jpg" alt="Bank Statement 1">
+            <div class="overlay">बैंक स्टेटमेंट</div>
+        </div>
+        <div class="gallery-item" data-index="2">
+            <img src="imges/FrontBank.jpg" alt="Bank Statement 2">
+            <!-- <div class="overlay">बैंक स्टेटमेंट 2</div> -->
+        </div>
+    </div>
+</section>
+        <!-- Rest of the page (table section) updated with new data -->
+        <section class="financial-details">
+            <h2>वित्तीय बिंदु</h2>
+            <div class="table-container">
+                <table id="financial-table">
+                    <thead>
+                        <tr>
+                            <th data-sort="number">क्र.सं.</th>
+                            <th data-sort="string">विवरण</th>
+                            <th data-sort="number">राशि (रुपये में)</th>
+                        </tr>
+                    </thead>
+                   <tbody>
+                        <tr data-tooltip="जमीन की बिक्री का मुख्य लेनदेन">
+                            <td>1</td>
+                            <td>1,04,50,000 रुपये में से घर की जामिन कमल  भैया और बा ने बेची, 29 लाख में से 22 लाख</td>
+                            <td>7,00,000</td>
+                        </tr>
+                        <!-- <tr data-tooltip="शेष राशि की गणना">
+                            <td>2</td>
+                            <td>29 लाख में से 22 लाख बचते</td>
+                            <td>7,00,000</td>
+                        </tr> -->
+                        <tr data-tooltip="8 साल का ब्याज">
+                            <td>3</td>
+                            <td>घर की जामिन में से 10 लाख राजु काकाजी के यहाँ से 8 साल तक 20 हजार रुपये महीने ब्याज आया</td>
+                            <td>19,20,000</td>
+                        </tr>
+                        <tr data-tooltip="नेवरी फाटक की आय">
+                            <td>4</td>
+                            <td>नेवरी फाटक की जामिन खरीदी बिक्री आये</td>
+                            <td>1,50,000</td>
+                        </tr>
+                        <tr data-tooltip="मकान बिक्री की आय">
+                            <td>5</td>
+                            <td>राजाराम नगर मकान खरीदी  बेचा कमाये</td>
+                            <td>2,40,000</td>
+                        </tr>
+                       
+                        <tr data-tooltip="10 साल की बचत">
+                            <td>7</td>
+                            <td>भौरासा जमीन की तोजी 60 हजार रुपये साल से 10 साल के 6 लाख में से 3 लाख बचे</td>
+                            <td>3,00,000</td>
+                        </tr>
+                        <tr data-tooltip="पंचायत निकासी">
+                            <td>8</td>
+                            <td>बा के 650000 पंचायत में निकाले खा गया</td>
+                            <td>6,50,000</td>
+                        </tr>
+                        <tr data-tooltip="ब्याज की राशि">
+                            <td>9</td>
+                            <td>बा के 650000 का ब्याज 650000 रुपये भी खा गया</td>
+                            <td>6,50,000</td>
+                        </tr>
+                        <tr data-tooltip="आलम नगर की खरीद">
+                            <td>10</td>
+                            <td>जामिन के पैसे से बा ने आलम नगर के तीन प्लाट कमल  भैया को दिलाये</td>
+                            <td>15,00,000</td>
+                        </tr>
+                       
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2"><strong>कुल राशि</strong></td>
+                            <td><strong>61,10000</strong></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="additional-notes">
+                <!-- <p><strong>:</strong></p> -->
+                <p>61,100000 रुपये में से 15 लाख के प्लाट लेने के बाद जो रुपये बचे सब रुपये मेडकी रोड के मकान और दुकान में लगा दिये!</p>
+                <p>और अभी 6300000 रुपये में भोरासा की जामिन बेची उसमें से 3000000 रुपये बचे और 3000000 रुपये इन्डियन ओवरसीज बैंक में रखे हैं जब सभी भाई हिसाब करके रुपये बाटने की बोलते हैं तो हिसाब नहीं करता हैं और सबको धमकी देता हैं!</p>
+                  <ul class=points>
+        <li >₹61,10,000</li>
+        <li>₹30,00,000</li>
+        <li><strong>कुल: ₹91,10,000</strong></li>
+    </ul>
+
+    <ul> 
+        <li>बोरिंग की मोटर बेचकर खा गया — ₹25,000</li>
+        <li>बची हुई तीन आरा ज़मीन के भी रुपए खा गया — ₹40,000</li>
+        <li>माँ के पास जो पूरी रकम  भी बेच के खा गया — ₹1,00,000 </li>
+    </ul>
+
+    <h3><strong>कुल मिलाकर: ₹92,70,000</strong></h3>
+            
+                    <!-- <h3>₹61,10000</h3>
+                    <h3>₹3000000</h3>
+                     <h3>₹9110000</h3>
+
+                    <p>रुपये खाने के भी बोरिंग की मोटर बेच के खा गया   <h3>25000</h3> </p>
+                    <p>बची तीन आरा जमीन  के भी   रुपाए खा गया <h3>40000</h3>  </p>  
+                    <p>माँ के पास जो पूरी रकम थी, वह  ₹1,00,000 भी उन्हीं के पास है । </p> 
+                                                      <h3>₹9110000</h3>
+                    <p><strong>कुल मिलाकर, 92,70,000 रुपये थे।</strong></p> -->
+    
+                <p><li>इसमे से आधे रुपये के राजाराम नगर में दुकान, मकान और आलम नगर में तीन प्लाट और भौंरासा में अलग से 5 बीघा जमीन लेकर रख राखी है और आधे रुपये 35-40 लाख ब्याज पे चल रहा है और हर महीने में 70,000 – 80,000 महीने का ब्याज खा रहा है।</li></p>
+                <p><li>इसमें हमारे पिताजी भी साथ दे रहे हैं, जिन्होंने दादाजी का मकान, गाड़र फर्शी बेचकर खा लिया। गली के बाहर की जमीन का ब्याना भी खा गए, ट्रक बेच के खा गए, जिस ज़मीन पर हम रह रहे हैं उस ज़मीन को भी गिरवी रख कर रुपये खा गए थे। वाह तो हमारे ताऊ जी ने सामने वाले के रूपये समय पर वापस देकर ज़मीन छुड़वा ली थी । </li></p>
+                <p><li>यह दोनों हमारे पिताजी और कमल भैया ने हम 35-40 व्यक्तियों की जिंदगी इस प्रकार बर्बाद कर रखी है। आख़िर हम कब तक चुप बैठे और आने वाली पीढी की बरबादी हम कब तक देखेंगे और अब हम न्याय के खातिर कुछ भी करेंगे तो हमारी कोई भी गलती नहीं रहेगी। </li></p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
